@@ -2,6 +2,19 @@ import { Image, TouchableOpacity } from "react-native";
 
 import styles from "./screenheader.style";
 
-const ScreenHeaderBtn = ({}) => {};
+const ScreenHeaderBtn = ({ iconUrl, dimension }) => {
+  const handlePress = () => {};
+
+  return (
+    <TouchableOpacity style={styles.btnContainer} onPress={handlePress}>
+      <Image
+        source={iconUrl}
+        alt=''
+        resizeMode='cover'
+        style={styles.btnImg(dimension)}
+      />
+    </TouchableOpacity>
+  );
+};
 
 export default ScreenHeaderBtn;

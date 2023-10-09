@@ -5,6 +5,12 @@ import { View, Text, TouchableOpacity, ActivityIndicator } from "react-native";
 import styles from "./nearbyjobs.style";
 import { COLORS } from "../../../constants";
 
-const Nearbyjobs = () => {};
+const Nearbyjobs = () => {
+  return (
+    <View>
+      <Text>Nearby Jobs</Text>
+    </View>
+  );
+};
 
 export default Nearbyjobs;

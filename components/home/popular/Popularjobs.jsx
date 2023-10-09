@@ -11,6 +11,12 @@ import {
 import styles from "./popularjobs.style";
 import { COLORS, SIZES } from "../../../constants";
 
-const Popularjobs = () => {};
+const Popularjobs = () => {
+  return (
+    <View>
+      <Text>Popular Jobs</Text>
+    </View>
+  );
+};
 
 export default Popularjobs;
