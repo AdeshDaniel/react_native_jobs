@@ -29,7 +29,7 @@ const Welcome = ({ searchTerm, setSearchTerm, handleClick }) => {
         <View style={styles.searchWrapper}>
           <TextInput
             style={styles.searchInput}
-            value={searchTerm}
+            value=''
             onChangeText={(text) => setSearchTerm(text)}
             placeholder='What are you looking for?'
           />
